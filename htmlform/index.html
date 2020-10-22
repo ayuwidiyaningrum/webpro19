@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <form action="registration.php" method = "POST">
+            <fieldset>
+                <h1 style="color:darkturquoise">Student Registration Form </h1>
+                        <div align="center">
+                        <label for="Date">Date</label>
+                        <input type="date" name="Date" id="Date" value="2020-10-20">
+                        </div>
+                        <br>
+                        <h3>PERSONAL INFORMATION</h3>
+                        <hr>
+                        <div>
+                        <label for="name">NAME</label>
+                        <input type="text" name="name" id="name">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="dateofbirth">DATE OF BIRTH</label>
+                        <input type="date" name="dateofbirth" id="dateofbirth">
+                        </div>
+                        <br>
+                        <h3>CONTACT INFORMATION</h3>
+                        <hr>
+                        <div>
+                        <label for="address">ADDRESS</label>
+                        <input type="text" name="address" id="address">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="city">CITY</label>
+                        <input type="text" name="city" id="city">
+                        <label for="province/state">PROVINCE/STATE</label>
+                        <input type="text" name="province/state" id="province/state">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="zipcode">ZIP CODE</label>
+                        <input type="text" name="zipcode" id="zipcode">
+                        <label for="country">COUNTRY</label>
+                        <input type="text" name="country" id="country">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="phone">PHONE</label>
+                        <input type="text" name="phone" id="phone">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="membership">MEMBERSHIP TYPE</label>
+                        <input type="radio" name="membership" value="regular" checked/>Regular
+                        <input type="radio" name="membership" value="premium">Premium
+                        <input type="radio" name="membership" value="vip">VIP
+                        </div>
+                        <br>
+                        <h3>COURSE INFORMATION</h3>
+                        <hr>
+                        <div>
+                        <label for="coursename">COURSE NAME</label>
+                        <input type="text" name="coursename" id="coursename">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="paymentdetails">PAYMENT DETAILS</label>
+                        <input type="radio" name="paymentdetails" value="cash" checked/>Cash
+                        <input type="radio" name="paymentdetails" value="cheque">Cheque
+                        <input type="radio" name="paymentdetails" value="creditcard">Credit Card
+                        </div>
+                        <br>
+                        <div>
+                        <label for="comments">COMMENTS</label>
+                        <input type="text" name="comments" id="comments">
+                        </div>
+                        <br>
+                        <div>
+                        <input type="submit" name="Submit" id="proses">
+                        </div>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
