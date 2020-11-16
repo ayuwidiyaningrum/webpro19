@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css5.css">
+<body>
+    <div class="form">
+    <form>
+        <div>
+            <label for="nama">Nama Pelanggan: </label>
+            <input type="text" id="nama">
+            <span class="sukses"></span>
+        </div>
+        <br>  
+        <div>
+            <label for="email">Email: </label>
+            <input type="text" id="email">
+            <span class="sukses"></span>
+        </div>
+        <br>      
+        <div>
+            <label for="jam">Jam keberangkatan: </label>
+            <input type="time" id="jam">
+            <span class="sukses"></span>
+        </div>
+        <br>
+        <div>
+            <label for="tujuan">Tujan Keberangkatan: </label>
+            <input type="text" id="tujuan">
+            <span class="sukses"></span>
+        </div>
+        <br>
+        <div>
+            <label for="Jumlah">Jumlah Tiket: </label>
+            <input type="text" id="tiket">
+            <span class="sukses"></span>
+        </div>
+        <br>        
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</div>
+    <br>
+    <div id="output"></div>
+    <script src="form.js"></script>
+</body>
+</head>
+</html>

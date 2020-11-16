@@ -1,0 +1,13 @@
+body{
+    background: wheat;
+    color: gray;
+}
+legend{
+    font-size: 15pt;
+    color: brown;
+}
+th{
+    font-size: 15pt;
+}
+
+

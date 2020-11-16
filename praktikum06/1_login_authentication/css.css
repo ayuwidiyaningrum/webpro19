@@ -1,0 +1,44 @@
+body {
+    background: darkslateblue;
+    font-family: sans-serif;
+  }
+
+h1{
+    background-color:darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   
+.login {
+    padding: 24px;
+    margin: 48px auto;
+    width: 17em; 
+    /*  17 em = 17*24px */
+    background: #fff;
+    border-radius: 3px;
+  /* border-radius = kotak melengkung */
+  }
+   
+label {
+    font-size: 10pt;
+    color: #555;
+  }
+
+   
+input[type="text"],
+input[type="password"],
+
+textarea {
+  padding: 8px;
+  width: 100%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 20px 1px;
+}
+
+.submit {
+    background: darkslategray;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+  }

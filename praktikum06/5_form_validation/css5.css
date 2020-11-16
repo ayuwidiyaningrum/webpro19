@@ -1,0 +1,47 @@
+body {
+    background: antiquewhite;
+    font-family: sans-serif;
+}
+.form {
+    padding: 35px;
+    margin: 40px auto;
+    width: 35em; 
+    /*  17 em = 17*24px */
+    background: #fff;
+    border-radius: 20px;
+  /* border-radius = kotak melengkung */
+  }
+#output{
+  text-align: center;
+}
+  textarea {
+    padding: 8px;
+    width: 100%;
+    background: #efefef;
+    border: 0;
+    font-size: 10pt;
+    margin: 20px 1px;
+  }
+
+#submit{
+    background: burlywood;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+  }
+label {
+    font-size: 10pt;
+    color: darkblue;
+  }
+
+input[type="text"],
+input[type="time"],
+
+.error{
+    color: red;
+    visibility: visible;
+    font-size: 10pt;
+}
+.sukses{
+    visibility: hidden;
+}

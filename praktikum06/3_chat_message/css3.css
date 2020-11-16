@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#text{
+    width: 85%;
+    line-height: 20px;
+}
+#kirim{
+    width: 14%;
+    height: 25px;
+}
+#Box{
+    width: 700px;
+    height: 500px;
+    border: .5px solid black;
+    position: relative;
+    margin: 20px;
+}
+#input{
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
